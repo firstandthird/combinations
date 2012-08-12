@@ -1,0 +1,23 @@
+{
+  "name": "combo",
+  "version": "0.1.0",
+  "description": "find all combinations from array",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jgallen23/combo.git"
+  },
+  "keywords": [
+    "combination",
+    "combo",
+    "array"
+  ],
+  "author": "Greg Allen <@jgaui> (http://jga.me)",
+  "license": "MIT",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
