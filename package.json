@@ -12,7 +12,10 @@
     "combo",
     "array"
   ],
-  "author": "Greg Allen <@jgaui> (http://jga.me)",
+  "scripts": {
+    "test": "mocha --ui tdd"
+  },
+  "author": "Greg Allen <@greg_allen> (http://jga.me)",
   "license": "MIT",
   "dependencies": {
     
