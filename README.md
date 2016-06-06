@@ -1,4 +1,4 @@
-Combinations
+Combinations [![Build Status](https://travis-ci.org/jgallen23/combinations.svg?branch=master)](https://travis-ci.org/jgallen23/combinations)
 ============
 
 # Installation
