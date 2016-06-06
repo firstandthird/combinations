@@ -1,11 +1,11 @@
 {
-  "name": "combo",
-  "version": "0.1.0",
+  "name": "combinations",
+  "version": "0.1.1",
   "description": "find all combinations from array",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jgallen23/combo.git"
+    "url": "git://github.com/jgallen23/combinations.git"
   },
   "keywords": [
     "combination",
