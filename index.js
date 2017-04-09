@@ -1,6 +1,7 @@
 
-var combo = function(a, min) {
+var combo = function(a, min, max) {
   min = min || 1;
+  max = max < a.length ? max : a.length;
   var fn = function(n, src, got, all) {
     if (n == 0) {
       if (got.length > 0) {
@@ -17,7 +18,7 @@ var combo = function(a, min) {
   for (var i = min; i < a.length; i++) {
     fn(i, a, [], all);
   }
-  all.push(a);
+  if(a.length == max) all.push(a);
   return all;
 }
 module.exports = combo;
