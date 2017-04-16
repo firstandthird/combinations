@@ -1,6 +1,6 @@
 {
   "name": "combinations",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "find all combinations from array",
   "main": "index.js",
   "repository": {
