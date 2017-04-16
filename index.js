@@ -15,10 +15,9 @@ var combo = function(a, min, max) {
     return;
   }
   var all = [];
-  for (var i = min; i < a.length; i++) {
+  for (var i = min; i <= max; i++) {
     fn(i, a, [], all);
   }
-  if(a.length == max) all.push(a);
   return all;
 }
 module.exports = combo;

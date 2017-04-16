@@ -32,5 +32,11 @@ suite('combo', function() {
     assert.deepEqual(out, [ [ 'a', 'b' ], [ 'a', 'c' ], [ 'a', 'd'], [ 'b', 'c' ], [ 'b', 'd'], [ 'c', 'd' ], [ 'a', 'b', 'c' ], [ 'a', 'b', 'd' ], [ 'a', 'c', 'd' ], [ 'b', 'c', 'd' ] ]);
   });
 
+  test('4 item array with min 3 and max 3 elements', function() {
+    var out = combo(['a', 'b', 'c', 'd'],3,3);
+
+    assert.deepEqual(out, [ [ 'a', 'b', 'c' ], [ 'a', 'b', 'd' ], [ 'a', 'c', 'd' ], [ 'b', 'c', 'd' ] ]);
+  });
+
 });
 
