@@ -1,6 +1,6 @@
 {
   "name": "combinations",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "find all combinations from array",
   "main": "index.js",
   "repository": {
@@ -17,9 +17,7 @@
   },
   "author": "Greg Allen <@greg_allen> (http://jga.me)",
   "license": "MIT",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "*"
   }
