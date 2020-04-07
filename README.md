@@ -7,7 +7,7 @@ Combinations [![Build Status](https://travis-ci.org/jgallen23/combinations.svg?b
 
 # Usage
 
-    combinations(array[, min_output_array_size])
+    combinations(array, [min_output_array_size], [max])
 
 *   takes in an array, and outputs an array of arrays, containing all possible combinations of values in the original array.
 *   combinations are of all sizes: all combinations of one element, and all combinations of 2 elements, and so on
