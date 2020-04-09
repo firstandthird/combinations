@@ -15,7 +15,7 @@ var combo = function(a, min, max) {
     return;
   }
   var all = [];
-  for (var i = min; i < a.length; i++) {
+  for (var i = min; i < Math.min(max + 1, a.length); i++) {
     fn(i, a, [], all);
   }
   if(a.length == max) all.push(a);
