@@ -32,5 +32,32 @@ suite('combo', function() {
     assert.deepEqual(out, [ [ 'a', 'b' ], [ 'a', 'c' ], [ 'a', 'd'], [ 'b', 'c' ], [ 'b', 'd'], [ 'c', 'd' ], [ 'a', 'b', 'c' ], [ 'a', 'b', 'd' ], [ 'a', 'c', 'd' ], [ 'b', 'c', 'd' ] ]);
   });
 
+  test('5 item array with min 2 and max 3 elements', function() {
+    var out = combo(['a', 'b', 'c', 'd', 'e'],2,3);
+
+    assert.deepEqual(out, [
+      [ 'a', 'b' ],
+      [ 'a', 'c' ],
+      [ 'a', 'd' ],
+      [ 'a', 'e' ],
+      [ 'b', 'c' ],
+      [ 'b', 'd' ],
+      [ 'b', 'e' ],
+      [ 'c', 'd' ],
+      [ 'c', 'e' ],
+      [ 'd', 'e' ],
+      [ 'a', 'b', 'c' ],
+      [ 'a', 'b', 'd' ],
+      [ 'a', 'b', 'e' ],
+      [ 'a', 'c', 'd' ],
+      [ 'a', 'c', 'e' ],
+      [ 'a', 'd', 'e' ],
+      [ 'b', 'c', 'd' ],
+      [ 'b', 'c', 'e' ],
+      [ 'b', 'd', 'e' ],
+      [ 'c', 'd', 'e' ]
+    ]);
+  });
+
 });
 
